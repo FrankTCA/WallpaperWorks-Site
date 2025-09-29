@@ -5,3 +5,5 @@ data
 node_modules
 package.json
 package_lock.json
+.DS_Store
+.hugo_build.lock
