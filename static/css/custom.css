@@ -2,3 +2,19 @@
  This CSS file is used to override the existing styles of the theme.
  You can change the article headings, fonts, colors, etc.
 */
+
+.icon-desktop_windows:before {
+    content: "\ed2e";
+}
+
+.icon-apple:before {
+    content: "\ed2a";
+}
+
+.icon-linux:before {
+    content: "\e9c9";
+}
+
+.icon-cloud:before {
+    content: "\e9cf";
+}

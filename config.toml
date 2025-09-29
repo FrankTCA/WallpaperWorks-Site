@@ -18,7 +18,7 @@ enableRobotsTXT = true
 
 [params]
 
-  showBlog = false
+  showoBlog = true
   mainSections = ['blog']
 
   googleFonts = false
@@ -36,7 +36,7 @@ enableRobotsTXT = true
 
   [params.icon]
     #If you want to use FontAwesome, set this parameter to true.
-    fontawesome = false
+    fontawesome = true 
 
   [params.homepage_meta_tags]
     meta_description = "WallpaperWorks is an app to revolutionize your computer wallpaper"
