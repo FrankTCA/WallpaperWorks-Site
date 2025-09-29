@@ -1,3 +1,4 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://wallpaperworks.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Wallpaper Works'
+theme = 'tella'
