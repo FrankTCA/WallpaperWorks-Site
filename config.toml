@@ -1,0 +1,85 @@
+baseURL = "https://wallpaperworks.app"
+title = "WallpaperWorks"
+author = "Thundrcloud"
+languageCode = "en"
+DefaultContentLanguage = "en"
+enableInlineShortcodes = true
+theme = "tella"
+enableRobotsTXT = true
+
+# Please enable this feature if the site is available in Japanese, Chinese or Korean.
+#hasCJKLanguage = true
+
+# If you're using Google Analytics, you can enable this feature.
+#googleAnalytics = "UA-12345678-1"
+
+# Disqus Comment System
+#disqusShortname = ""
+
+[params]
+
+  showBlog = false
+  mainSections = ['blog']
+
+  googleFonts = false
+
+  [params.logo]
+    main = "img/logo/logo.svg"
+    alt = "WallpaperWorks Logo"
+
+    # The size parameter is the class name of tailwindcss
+    # https://tailwindcss.com/
+    size = "h-14"
+
+  [params.site]
+    name = "WallpaperWorks"
+
+  [params.icon]
+    #If you want to use FontAwesome, set this parameter to true.
+    fontawesome = false
+
+  [params.homepage_meta_tags]
+    meta_description = "WallpaperWorks is an app to revolutionize your computer wallpaper"
+    meta_og_title = "WallpaperWorks"
+    meta_og_type = "website"
+    meta_og_url = "https://wallpaperworks.app"
+    meta_og_image = "https://raw.githubusercontent.com/opera7133/tella/master/images/tn.png"
+    meta_og_description = "WallpaperWorks is an app to revolutionize your computer wallpaper"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "get"
+    name = "Get WallpaperWorks"
+    url = "/get/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "browser"
+    name = "Try in Browser"
+    url = "/html5/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+  [[menu.main]]
+    identifier = "opensource"
+    name = "Open Source"
+    url = "https://github.com/Aaron-Speedy/WallpaperWorks"
+    weight = 4
+
+  # Footer Menu
+  [[menu.footer]]
+    name = "Home"
+    url = "/"
+      weight = 1
+
+  [[menu.footer]]
+    name = "Github"
+    url = "https://github.com/Aaron-Speedy/WallpaperWorks"
+    pre = "<i class='icon-github text-2xl'></i>"
+      weight = 2
