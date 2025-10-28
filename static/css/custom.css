@@ -3,18 +3,22 @@
  You can change the article headings, fonts, colors, etc.
 */
 
+@font-face {
+    font-family: "os-ico";
+    src: url("font/os-icos.ttf");
+}
+
 .icon-desktop_windows:before {
+    font-family: "os-ico";
     content: "\ed2e";
 }
 
 .icon-apple:before {
+    font-family: "os-ico";
     content: "\ed2a";
 }
 
 .icon-linux:before {
+    font-family: "os-ico";
     content: "\e9c9";
-}
-
-.icon-cloud:before {
-    content: "\e9cf";
 }

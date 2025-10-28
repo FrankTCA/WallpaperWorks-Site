@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Windows",
+    "description": "Purchase for Windows",
+    "icon": "icon-desktop_windows",
+    "link": "https://wallpaperworks.app/windows/"
+  },
+  {
+    "title": "Mac",
+    "description": "Get on the App Store",
+    "icon": "icon-apple",
+    "link": "https://wallpaperworks.app/mac/"
+  },
+  {
+    "title": "Linux",
+    "description": "Free for Linux users",
+    "icon": "icon-linux",
+    "link": "https://wallpaperworks.app/linux/"
+  }
+]

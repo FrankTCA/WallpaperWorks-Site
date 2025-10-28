@@ -1,9 +1,6 @@
 i18n
 public
-static
-data
 node_modules
-package.json
 package-lock.json
 .DS_Store
 .hugo_build.lock
