@@ -1,3 +1,6 @@
 [submodule "themes/tella"]
 	path = themes/tella
 	url = https://github.com/opera7133/tella
+[submodule "static/payment/assets/font/spacemono"]
+	path = static/payment/assets/font/spacemono
+	url = https://github.com/googlefonts/spacemono

@@ -1,5 +1,6 @@
 ---
 title: 'Contact'
+description: "Get in touch with WallpaperWorks."
 ---
 
 Feel free to reach out to us any time if you need help, or just want to say hi!
