@@ -5,8 +5,10 @@ aliases = ["dl", "download-wallpaperworks", "buy"]
 author = "WallpaperWorks"
 +++
 
-Download WallpaperWorks for Windows and Mac.
+Purchase WallpaperWorks for Windows and Mac or [Log In](https://wallpaper.works/login/).
 
-For Linux, please click [here](/linux).
+{{< iframe "/payment" 500em 120em>}}
 
-{{< iframe /payment/ >}}
+Also find us on the App Store.
+
+We use the [Mallory](https://frerejones.com/families/mallory) font by Frere-Jones Type for our clock and date.

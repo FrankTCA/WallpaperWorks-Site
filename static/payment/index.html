@@ -29,59 +29,15 @@ SOFTWARE.
 
 <!DOCTYPE html>
 <head>
-    <link href="assets/font/spacemono.css" type="text/css" rel="stylesheet">
-    <link href="assets/css/bank-card.css" type="text/css" rel="stylesheet">
+    <title>Purchase WallpaperWorks</title>
 </head>
 <body>
-<div class="card">
-    <div class="card-front card-part" id="card-front">
-        <img alt="" class="card-front-square card-square" src="assets/icons/sim-card-chip.png">
-        <img alt="" class="card-front-square card-square" src="assets/icons/contactless-payment-white.png"/>
-        <img alt="" class="card-front-logo card-logo" src="assets/logos/22.svg">
-        <p class="card-number" id="card-number">**** **** **** ****</p>
-        <div class="card-space-75">
-            <span class="card-label">Card holder</span>
-            <p class="card-info" id="card-holder">Your name here</p>
-        </div>
-        <div class="card-space-25">
-            <span class="card-label">Expires</span>
-            <p class="card-info" id="card-expires-date">**/**</p>
-        </div>
-    </div>
-
-    <div class="card-back card-part" id="card-back">
-        <div class="card-black-line"></div>
-        <div class="card-back-content">
-            <div class="card-secret">
-                <p class="card-secret--last" id="card-secret-cvc">***</p>
-            </div>
-            <img alt="" class="card-back-logo card-logo" src="assets/logos/22.svg">
-        </div>
-    </div>
-</div>
 <div>
-    <form>
-        <div class="row">
-            <label>Card holder :</label>
-            <input id="card-holder-input" placeholder="Card holder name" type="text">
-        </div>
-        <div class="row">
-            <label>Card number :</label>
-            <input id="card-number-input" maxlength="19" minlength="19" placeholder="Card number" type="text">
-        </div>
-        <div class="row">
-            <div class="col-50">
-                <label>Expires :</label>
-                <input id="card-expires-date-input" max="1299" maxlength="5" minlength="5" placeholder="Expires"
-                       type="text">
-            </div>
-            <div class="col-50">
-                <label>CVC :</label>
-                <input id="card-secret-cvc-input" max="999" maxlength="4" min="100" minlength="4" placeholder="CVC"
-                       type="text">
-            </div>
-        </div>
+    <style>.pp-FF8UY6U6EQ2H8{text-align:center;border:none;border-radius:0.25rem;min-width:11.625rem;padding:0 2rem;height:2.625rem;font-weight:bold;background-color:#FFD140;color:#000000;font-family:"Helvetica Neue",Arial,sans-serif;font-size:1rem;line-height:1.25rem;cursor:pointer;}</style>
+    <form action="https://www.paypal.com/ncp/payment/FF8UY6U6EQ2H8" method="post" target="_blank" style="display:inline-grid;justify-items:center;align-content:start;gap:0.5rem;">
+        <input class="pp-FF8UY6U6EQ2H8" type="submit" value="Buy Now" />
+        <img src=https://www.paypalobjects.com/images/Debit_Credit_APM.svg alt="cards" />
+        <section style="font-size: 0.75rem;"> Powered by <img src="https://www.paypalobjects.com/paypal-ui/logos/svg/paypal-wordmark-color.svg" alt="paypal" style="height:0.875rem;vertical-align:middle;"/></section>
     </form>
 </div>
-<script src="assets/js/bank-card.js"></script>
 </body>
